@@ -3,12 +3,21 @@
 
     header{
         background-image:
-        url(assets/bg-main-tablet.png),
-        url(assets/bg-pattern-1.svg);
+        url(assets/bg-main-tablet.png);
         background-repeat: no-repeat;
         background-position:  
-        top 31% left 109%,
-        top -50% right -12%;
+        top 65% left 85%;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .header-img{
+        display: initial;
+        position: absolute;
+        width: 15rem;
+        height: 26rem;
+        top: -49px;
+        right: -45px;
     }
 
     .header-logo{
@@ -26,6 +35,7 @@
         font-size: 1.25rem;   
         margin-left: 2.75rem;
         max-width: 34rem;
+        padding-bottom: 15rem;
     }
 
     /* mobile card  */

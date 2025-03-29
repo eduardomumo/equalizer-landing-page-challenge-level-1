@@ -23,6 +23,11 @@ header{
     background-position: left 71px top 70%;
 }
 
+.header-img{
+    display: none;
+
+}
+
 .header-logo{
     max-width: 9rem;
     width: 100%;
@@ -48,7 +53,7 @@ h1{
     margin-top: 2.5rem;
     margin-left: 1.25rem;
     margin-right: 1.25rem;
-    margin-bottom: 11rem;
+    padding-bottom: 11rem;
 }
 
 /* main styles */
