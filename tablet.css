@@ -1,0 +1,87 @@
+/* tablet design */
+@media (min-width: 768px) {
+
+    header{
+        background-image:
+        url(assets/bg-main-tablet.png),
+        url(assets/bg-pattern-1.svg);
+        background-repeat: no-repeat;
+        background-position:  
+        top 31% left 109%,
+        top -50% right -12%;
+    }
+
+    .header-logo{
+        margin-left: 2.75rem;
+    }
+
+    h1{
+        font-size: 4rem;
+        max-width: 26rem;
+        margin-left: 2.75rem;
+        margin-top: 8rem;
+    }
+
+    .header-text{
+        font-size: 1.25rem;   
+        margin-left: 2.75rem;
+        max-width: 34rem;
+    }
+
+    /* mobile card  */
+
+    .card-container{
+        position: relative;
+    }
+
+    .mobile-card{
+        height: 37.5rem;
+        margin-left: 2.75rem;
+        margin-right: 2.75rem;
+        border-radius: 0.75rem;
+        background-position: left top;
+    }
+
+    .mobile-img{
+        max-width: 16.8rem;
+        height: 34.75rem;
+        left: 41px;
+        right: auto;
+    }
+
+    /* premium orange card */
+    .premiun-card{
+        max-width: 22.25rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-bottom: 3rem;
+        border-radius: 1rem;
+        position: absolute;
+        top: 83px;
+        right: 111px;
+    }
+
+    .premiun-card-text{
+        font-size: 1.125rem;
+    }
+
+    footer{
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+        margin-bottom: 5rem;
+    }
+
+    .footer-logo{
+        margin-top: 16.38rem
+    }
+
+    .footer-text-social-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .footer-mail{
+        margin-bottom: 0;
+    }
+}
