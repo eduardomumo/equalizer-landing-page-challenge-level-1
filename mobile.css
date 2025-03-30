@@ -145,6 +145,16 @@ h2{
     border: none;
 }
 
+.button-apple-container:hover{
+    background-color: var(--cyan);
+}
+
+/* se agrega filter a los elementos hijos para volver el icono a color negro */
+.button-apple-container:hover .button-ios,
+.button-apple-container:hover .icon-apple {
+    filter: brightness(0) invert(0);
+}
+
 .button-android-container{
     background: var(--white);
     display: flex;
@@ -155,6 +165,10 @@ h2{
     margin-top: 1rem;
     margin-left: auto;
     margin-right: auto;
+}
+
+.button-android-container:hover{
+    background: var(--yellow);
 }
 
 .icon-android{
@@ -202,5 +216,5 @@ footer{
 .socials{
     display: flex;
     gap: 2rem;
-    
 }
+

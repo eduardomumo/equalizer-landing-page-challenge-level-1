@@ -1,0 +1,75 @@
+@media (min-width: 1440px) {
+    /* hacer que toda la pagina tenga una max width de 1440px y que este centrado */
+    body{
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+
+    header{
+        background-image: url(assets/bg-main-desktop.png);
+        background-repeat: no-repeat;
+        background-position:
+        top 23% left 49%;
+    }
+
+    .header-img{
+        top: -40px;
+        right: 0;
+        width: 21rem;
+        height: 30rem;
+    }
+
+    .header-logo{
+        margin-left: 10rem;
+    }
+    
+    h1{
+        font-size: 5.5rem;
+        max-width: 58rem;
+        margin-left: 10rem;
+    }
+
+    .header-text{
+        margin-left: 10rem;
+        max-width: 46rem;
+    }
+
+    /* mobile card */
+    .mobile-card{
+        margin-left: 10rem;
+        margin-right: 10rem;
+        background-position: center top;
+    }
+
+    .mobile-img{
+        max-width: 19.5rem;
+        height: 40.125rem;
+        left: 135px;
+    }
+
+    /* premium orange card */
+    .premiun-card{
+        max-width: 29rem;
+        padding: 3.5rem;
+        top: 88px;
+        right: 235px;
+    }
+
+    /* footer */
+    footer{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 10rem;
+        margin-right: 10rem;
+        
+    }
+
+    .footer-logo{
+        margin-top: 0;
+    }
+
+    .footer-text-social-container{
+        gap: 17rem;
+    }
+
+}
